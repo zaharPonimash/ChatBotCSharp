@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\bin\Debug\ChatBot.exe.config
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\bin\Debug\ChatBot.exe
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\bin\Debug\ChatBot.pdb
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\Window1.baml
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\Window1.g.cs
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot_MarkupCompile.cache
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.g.resources
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.exe
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.pdb

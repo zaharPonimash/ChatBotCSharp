@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="ChatBot.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="ChatBot"
+	Height="429"
+	Width="365"
+	WindowStyle="ThreeDBorderWindow"
+	Foreground="Black"
+	Background="{x:Null}">
+	<Grid
+		Width="350"
+		Height="394">
+		<Grid.Background>
+			<RadialGradientBrush>
+				<RadialGradientBrush.GradientStops>
+					<GradientStop
+						Color="#FF000000"
+						Offset="0" />
+					<GradientStop
+						Color="#FFFFFFFF"
+						Offset="1" />
+				</RadialGradientBrush.GradientStops>
+			</RadialGradientBrush>
+		</Grid.Background>
+		<TextBox
+			Width="284"
+			Height="29"
+			x:Name="inputText"
+			KeyDown="inputText_KeyDown"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="33,0,0,55"
+			FontSize="20"
+			Foreground="MediumBlue"
+			FontWeight="ExtraBold"
+			FontFamily="Ravie" />
+		<TextBox
+			Height="276"
+			Width="284"
+			x:Name="AllText"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="33,8,0,0"
+			BorderBrush="#FFABADB3"
+			FontFamily="Curlz MT"
+			FontSize="25"
+			Background="Yellow"
+			Foreground="DarkRed"
+			FontWeight="ExtraBold" />
+	</Grid>
+</Window>
