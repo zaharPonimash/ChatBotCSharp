@@ -1,23 +1,21 @@
 ﻿/*
  * Создано в SharpDevelop.
  * Пользователь: admin
- * Дата: 10.11.2017
- * Время: 10:12
+ * Дата: 11.11.2017
+ * Время: 0:08
  * 
  * Для изменения этого шаблона используйте меню "Инструменты | Параметры | Кодирование | Стандартные заголовки".
  */
 using System;
-using AI.MathMod;
-using AI.NeuralNetwork;
 
 namespace AI.BotAlgoritm
 {
 	/// <summary>
-	/// Description of TextDataGenerator.
+	/// Description of TextClassifier.
 	/// </summary>
-	public class TextDataGenerator
+	public class TextClassifier
 	{
-		public TextDataGenerator()
+		public TextClassifier()
 		{
 		}
 	}

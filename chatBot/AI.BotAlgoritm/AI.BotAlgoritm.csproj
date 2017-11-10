@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AI.MathMod">
-      <HintPath>..\..\..\..\AI.NeuralNetwork\bin\Debug\AI.MathMod.dll</HintPath>
+      <HintPath>bin\Debug\AI.MathMod.dll</HintPath>
     </Reference>
     <Reference Include="AI.NeuralNetwork">
-      <HintPath>..\..\..\..\AI.NeuralNetwork\bin\Debug\AI.NeuralNetwork.dll</HintPath>
+      <HintPath>bin\Debug\AI.NeuralNetwork.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextClassifier.cs" />
     <Compile Include="TextDataGenerator.cs" />
     <Compile Include="TextModel.cs" />
   </ItemGroup>
