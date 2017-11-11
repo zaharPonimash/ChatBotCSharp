@@ -1,7 +1,5 @@
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.BotAlgoritm.dll
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.BotAlgoritm.pdb
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.MathMod.dll
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.NeuralNetwork.dll
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\ZedGraph.dll
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.MathMod.pdb
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.MathMod.xml
