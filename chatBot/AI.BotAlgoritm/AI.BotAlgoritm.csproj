@@ -31,12 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AI.MathMod">
-      <HintPath>bin\Debug\AI.MathMod.dll</HintPath>
-    </Reference>
-    <Reference Include="AI.NeuralNetwork">
-      <HintPath>bin\Debug\AI.NeuralNetwork.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>

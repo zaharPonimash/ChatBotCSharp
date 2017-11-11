@@ -12,26 +12,26 @@ using System.Collections.Generic;
 namespace AI.BotAlgoritm
 {
 	
-	public class FrequencyDictionaryStruct
+	public class ProbabilityDictionaryData
 	{
-		public string word;
-		public double frequency;
+		public string Word{get; set;}
+		public double Probability{get; set;}
 	
 	}
 	
 	/// <summary>
-	/// Частотный/вероятностный словарь
+	/// Вероятностный словарь
 	/// </summary>
-	public class FrequencyDictionary
+	public class ProbabilityDictionary
 	{
 		
 		
 		
 		
 		
-		public FrequencyDictionaryStruct[] fDictionary;
-		List<FrequencyDictionaryStruct> list = new List<FrequencyDictionaryStruct>();	
-		List<string> words = new List<string>();
+		public ProbabilityDictionaryData[] pDictionary{get; private set;}
+		List<ProbabilityDictionaryData> list = new List<ProbabilityDictionaryData>();	
+		List<string> Words = new List<string>();
 		int n;
 		
 			// удаление слов не несущих смысла
@@ -49,12 +49,12 @@ namespace AI.BotAlgoritm
 		
 		
 		
-		public FrequencyDictionary(string text)
+		public ProbabilityDictionary(string text)
 		{
 			GetWords(text);
 			Analis();
-			list.Sort((a, b) => a.frequency.CompareTo(b.frequency)*-1); // Сортировка массива
-			fDictionary = list.ToArray(); // создание массива
+			list.Sort((a, b) => a.Probability.CompareTo(b.Probability)*-1); // Сортировка массива
+			pDictionary = list.ToArray(); // создание массива
 		}
 		
 		
@@ -79,14 +79,14 @@ namespace AI.BotAlgoritm
 		
 				bool flag;
 			
-				words.RemoveAll(DigialPredickat);// Удаление строк с числами
+				Words.RemoveAll(DigialPredickat);// Удаление строк с числами
 				
 			
 				
 				foreach(string str in stop){
 						do
 						{
-							flag = words.Remove(str);
+							flag = Words.Remove(str);
 						}
 						while(flag);
 				}
@@ -97,23 +97,23 @@ namespace AI.BotAlgoritm
 				
 				
 			// Составление словаря	
-			while(words.Count != 0)
+			while(Words.Count != 0)
 			{
-				string str = words[0];
+				string str = Words[0];
 				double count = 0;
-				FrequencyDictionaryStruct fD = new FrequencyDictionaryStruct();
+				ProbabilityDictionaryData fD = new ProbabilityDictionaryData();
 				
-				for(int i = 0; i<words.Count; i++)
+				for(int i = 0; i<Words.Count; i++)
 				{
-					if(words[i] == str) 
+					if(Words[i] == str) 
 					{
 						count ++;
 					}
 				}
 				
 				
-				fD.frequency = count;
-				fD.word = str;
+				fD.Probability = (double)count/(double)n;
+				fD.Word = str;
 				
 				list.Add(fD); // Добавление элемента
 				
@@ -121,7 +121,7 @@ namespace AI.BotAlgoritm
 				// Удаление данных
 				do
 				{
-				flag = words.Remove(str);
+				flag = Words.Remove(str);
 				}
 				while(flag);
 					
@@ -145,15 +145,18 @@ namespace AI.BotAlgoritm
 		{
 			string output = "";
 			
-			int len = (fDictionary.Length<index)? fDictionary.Length:index;
+			int len = (pDictionary.Length<index)? pDictionary.Length:index;
 			
 			for(int i = 0; i<len; i++)
 			{
-				output += fDictionary[i].word+" ";
+				output += pDictionary[i].Word+" "+pDictionary[i].Probability+"\n";
 			}
 			
 			return output.Trim();
 		}
+		
+		
+		
 		
 		
 		
@@ -166,7 +169,7 @@ namespace AI.BotAlgoritm
 			
 			// 
 			foreach(string str in strs)
-				words.Add(
+				Words.Add(
 					str.ToLower().Trim(new char[]{'?','!','.',',',' ', '\t', '(',')'}
 				));
 		}

@@ -7,8 +7,6 @@
  * Для изменения этого шаблона используйте меню "Инструменты | Параметры | Кодирование | Стандартные заголовки".
  */
 using System;
-using AI.MathMod;
-using AI.NeuralNetwork;
 
 namespace AI.BotAlgoritm
 {
