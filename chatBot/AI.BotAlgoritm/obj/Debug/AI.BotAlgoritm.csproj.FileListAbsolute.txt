@@ -1,10 +1,6 @@
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.BotAlgoritm.dll
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.BotAlgoritm.pdb
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\ZedGraph.dll
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.MathMod.pdb
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.MathMod.xml
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.NeuralNetwork.pdb
-C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\bin\Debug\AI.NeuralNetwork.xml
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\obj\Debug\AI.BotAlgoritm.csprojResolveAssemblyReference.cache
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\obj\Debug\AI.BotAlgoritm.dll
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\AI.BotAlgoritm\obj\Debug\AI.BotAlgoritm.pdb

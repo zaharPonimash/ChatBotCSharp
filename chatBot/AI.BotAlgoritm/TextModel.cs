@@ -19,7 +19,7 @@ namespace AI.BotAlgoritm
 	public class TextModel
 	{
 		
-		string[] _paths;
+		readonly string[] _paths;
 		public TextModelData[] tmds{get; protected set;}
 		
 		
@@ -34,15 +34,16 @@ namespace AI.BotAlgoritm
 			GenerateModels();
 		}
 		
-		public TextModel(TextModelData[] data)
+		public TextModel(TextModelData[] data, string[] paths)
 		{
 			tmds = data;
+			_paths = paths;
 		}
 		
 		//Загрузка
 		public static TextModel Load(string path)
 		{
-			string[] paths = Directory.GetFiles(path, "*.txt");
+			string[] paths = Directory.GetFiles(path, "*.model");
 			
 			
 			TextModelData[] tmds2 = new TextModelData[paths.Length];
@@ -53,7 +54,7 @@ namespace AI.BotAlgoritm
 				tmds2[i].LoadData(paths[i]);
 			}
 			
-			return new TextModel(tmds2);
+			return new TextModel(tmds2, paths);
 		}
 		
 		// Сохранение
