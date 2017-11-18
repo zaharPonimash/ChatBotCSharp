@@ -23,33 +23,43 @@
 			</RadialGradientBrush>
 		</Grid.Background>
 		<TextBox
-			Width="284"
-			Height="29"
 			x:Name="inputText"
 			KeyDown="inputText_KeyDown"
+			FontSize="20"
+			Foreground="MediumBlue"
+			FontWeight="ExtraBold"
+			FontFamily="Ravie"
+			Width="342"
+			Height="26"
 			Grid.Column="0"
 			Grid.Row="0"
 			HorizontalAlignment="Left"
 			VerticalAlignment="Bottom"
-			Margin="33,0,0,55"
-			FontSize="20"
-			Foreground="MediumBlue"
-			FontWeight="ExtraBold"
-			FontFamily="Ravie" />
-		<TextBox
-			Height="276"
-			Width="284"
+			Margin="4,0,0,25" />
+		<RichTextBox
 			x:Name="AllText"
+			Width="314"
+			Height="302"
 			Grid.Column="0"
 			Grid.Row="0"
 			HorizontalAlignment="Left"
 			VerticalAlignment="Top"
-			Margin="33,8,0,0"
-			BorderBrush="#FFABADB3"
-			FontFamily="Curlz MT"
-			FontSize="25"
-			Background="Yellow"
-			Foreground="DarkRed"
-			FontWeight="ExtraBold" />
+			Margin="19,0,0,0"
+			FontSize="20"
+			BorderBrush="Black"
+			Foreground="Black">
+			<RichTextBox.Background>
+				<RadialGradientBrush>
+					<RadialGradientBrush.GradientStops>
+						<GradientStop
+							Color="#FFF9E507"
+							Offset="0" />
+						<GradientStop
+							Color="#FFFFFFFF"
+							Offset="1" />
+					</RadialGradientBrush.GradientStops>
+				</RadialGradientBrush>
+			</RichTextBox.Background>
+		</RichTextBox>
 	</Grid>
 </Window>

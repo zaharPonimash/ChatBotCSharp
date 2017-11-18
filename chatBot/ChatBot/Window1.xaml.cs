@@ -15,6 +15,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using AI.BotAlgoritm;
 
 namespace ChatBot
 {
@@ -26,12 +27,17 @@ namespace ChatBot
 		public Window1()
 		{
 			InitializeComponent();
+		
 		}
 		
 		
+		GeneralBot gB = new GeneralBot("data");
+		
 		void inputText_KeyDown(object sender, KeyEventArgs e)
 		{
-			if(e.Key == Key.Enter) AllText.Text = inputText.Text;
+			//if(e.Key == Key.Enter)
+			AllText.Document.Blocks.Clear();
+			AllText.Document.Blocks.Add(new Paragraph(new Run(gB.GetAnswer(inputText.Text))));
 		}
 	}
 }

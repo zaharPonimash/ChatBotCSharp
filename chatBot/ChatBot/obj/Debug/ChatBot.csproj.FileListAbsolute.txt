@@ -9,3 +9,5 @@ C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.g.resources
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.exe
 C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\obj\Debug\ChatBot.pdb
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\bin\Debug\AI.BotAlgoritm.dll
+C:\Users\admin\Desktop\ИИ\GitHub\Chat\ChatBotCSharp\ChatBot\ChatBot\bin\Debug\AI.BotAlgoritm.pdb

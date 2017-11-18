@@ -19,7 +19,7 @@ namespace AI.BotAlgoritm
 	public class TextModel
 	{
 		
-		readonly string[] _paths;
+		public readonly string[] _paths;
 		public TextModelData[] tmds{get; protected set;}
 		
 		

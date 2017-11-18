@@ -81,5 +81,11 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI.BotAlgoritm\AI.BotAlgoritm.csproj">
+      <Project>{a004c998-70c9-4772-beca-b405a9e2555d}</Project>
+      <Name>AI.BotAlgoritm</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

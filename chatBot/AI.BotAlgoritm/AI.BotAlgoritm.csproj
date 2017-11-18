@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Bot.cs" />
     <Compile Include="FrequencyDictionary.cs" />
+    <Compile Include="GeneralBot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextClassifier.cs" />
     <Compile Include="TextDataGenerator.cs" />
