@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.BotAlgoritm", "AI.BotAlgoritm\AI.BotAlgoritm.csproj", "{A004C998-70C9-4772-BECA-B405A9E2555D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тест", "Тест\Тест.csproj", "{F06DB6E7-C994-403E-A7CB-118966122B88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +24,9 @@ Global
 		{A004C998-70C9-4772-BECA-B405A9E2555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A004C998-70C9-4772-BECA-B405A9E2555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A004C998-70C9-4772-BECA-B405A9E2555D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06DB6E7-C994-403E-A7CB-118966122B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06DB6E7-C994-403E-A7CB-118966122B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06DB6E7-C994-403E-A7CB-118966122B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06DB6E7-C994-403E-A7CB-118966122B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
